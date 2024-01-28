@@ -1,8 +1,23 @@
-# React + Vite
+# Pokedex
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una aplicación web simple que utiliza la API de PokeAPI para buscar y mostrar Pokemones. Está construido con React y Vite.
 
-Currently, two official plugins are available:
+Necesitarás tener Node.js y npm instalados en tu máquina.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Primero, clona el repositorio:
+
+git clone https://github.com/MateoCondor/pokedex
+
+Luego, instala las dependencias con npm:
+
+- npm install
+
+Finalmente, inicia el servidor de desarrollo:
+
+- npm run dev
+
+Ahora deberías poder ver la aplicación en http://localhost:[port].
+
+Uso
+Para buscar pokemones, simplemente introduce tu término de búsqueda en el campo de búsqueda y presiona Enter. Los resultados de la búsqueda se mostrarán en una lista y al seleccionar un pokemon se mostraran sus estadisticas, cadena de evolcion y una pequeña descripcion.
+
